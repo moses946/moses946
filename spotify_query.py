@@ -2,19 +2,25 @@ import os
 import requests
 import json
 from github import Github
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def get_token():
     url = "https://accounts.spotify.com/api/token"
     headers = {
         "Content-Type": "application/x-www-form-urlencoded"
     }
+    id= os.getenv("SPOTIFY_ID")
+    secret = os.getenv("SPOTIFY_SECRET")
     body = {
         "grant_type":"client_credentials",
-        "client_id":os.getenv("SPOTIFY_ID"),
-        "client_secret":os.getenv("SPOTIFY_SECRET")
+        "client_id":id,
+        "client_secret":secret
     }
     try:
         response = requests.post(url, headers=headers, data=body)
+        print("Token Response: ",response.status_code)
         if response.status_code == 200:
             decoded_response = response.content.decode('utf-8')
             return json.loads(decoded_response)["access_token"]
@@ -22,6 +28,8 @@ def get_token():
         pass
 
 
+import requests
+import json
 
 def get_tracks(token):
     url = "https://api.spotify.com/v1/playlists/77HCRyNiBLmGMdAcLnT5Tb/tracks"
@@ -30,28 +38,41 @@ def get_tracks(token):
     }
     try:
         response = requests.get(url, headers=headers)
+        print("Tracks Response: ", response.status_code)
         if response.status_code == 200:
             unsorted_tracks = json.loads(response.content.decode('utf-8'))["items"]
             sorted_tracks = []
-            # {
-            #         "name": track["track"]["name"],
-            #         "link": track["track"]["external_urls"]["spotify"],
-            #         "Artist": track["track"]["artists"][0]["name"]
-            #     }
             for track in unsorted_tracks:
-                sorted_tracks.append(f"- **{track["track"]["name"]} by {' & '.join([artist["name"] for artist in track["track"]["artists"]])}")
-            return sorted_tracks[-5: ]
+                track_name = track["track"]["name"]
+                track_artists = ' & '.join([artist["name"] for artist in track["track"]["artists"]])
+                track_link = track["track"]["external_urls"]["spotify"]
+                
+                # Format the track as a markdown table row
+                sorted_tracks.append(f"| **{track_name}** | {track_artists} | [Listen Here]({track_link}) |")
+            
+            # Return the last 5 tracks formatted as a markdown table
+            return "\n".join(sorted_tracks[-5:])
     except Exception as e:
         print(f"Exception {e}")
 
+
 def update_readme(tracks):
     g = Github(os.getenv("GITHUB_TOKEN"))
-    repo = g.get_repo('moses946')
+    repo = g.get_repo('moses946/moses946')
     readme = repo.get_readme()
-    content = readme.decoded_content.decode()
+    content = readme.decoded_content.decode('utf-8')
     print(content)
+    # Update README
+    start_marker = "<!-- start spotify -->"
+    end_marker = "<!-- end spotify -->"
+    new_content = "\n".join(tracks)
+    updated_content = content.split(start_marker)[0] + start_marker + "\n" + new_content + "\n" + end_marker + content.split(end_marker)[1]
+    
+    repo.update_file(readme.path, "Update Spotify section", updated_content, readme.sha)
+    
 
 if __name__ == "__main__":
     token = get_token()
-    print("\n\n")
-    print(get_tracks(token=token))
+    tracks = get_tracks(token=token)
+    # update_readme(tracks=tracks)
+    print(tracks)
