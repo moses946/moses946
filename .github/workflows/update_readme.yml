@@ -2,7 +2,7 @@ name: Update Spotify Section
 
 on:
   schedule:
-    - cron: "0 0 * * 0" # Runs hourly
+    - cron: "0 0 * * 0" # Runs weekly
   workflow_dispatch:
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
         python-version: "3.x"
 
     - name: Install Dependencies
-      run: pip install PyGithub requests json os python-dotenv
+      run: pip install PyGithub requests python-dotenv
 
     - name: Run Spotify Script
       env:

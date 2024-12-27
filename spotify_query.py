@@ -12,8 +12,8 @@ def get_token():
     headers = {
         "Content-Type": "application/x-www-form-urlencoded"
     }
-    id= os.getenv("SPOTIFY_ID")
-    secret = os.getenv("SPOTIFY_SECRET")
+    id= os.environ("SPOTIFY_ID")
+    secret = os.environ("SPOTIFY_SECRET")
     body = {
         "grant_type":"client_credentials",
         "client_id":id,
@@ -54,7 +54,7 @@ def get_tracks(token):
 
 
 def update_readme(tracks):
-    g = Github(os.getenv("GITHUB_TOKEN"))
+    g = Github(os.environ("GITHUB_TOKEN"))
     repo = g.get_repo('moses946/moses946')
     readme = repo.get_readme()
     content = readme.decoded_content.decode()
