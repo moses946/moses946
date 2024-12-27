@@ -15,18 +15,18 @@ _Stuck with my username like a bad tattoo😅, Hopefully it'll fade away_
 
 ### **1. Automation Repositories** 🛠️
 Here are some repositories where automation takes center stage:
-- [**Spotify Playlist Updater**](https://github.com/username/spotify-updater) – Automates fetching and displaying your favorite Spotify tracks.
-- [**GitHub Workflow Enhancer**](https://github.com/username/workflow-enhancer) – Boost your GitHub Actions with advanced workflows.
+- [**Spotify Playlist Updater**](https://github.com/moses946/moses946) – Automates fetching and displaying my favorite Spotify tracks on my profile.
+<!-- - [**GitHub Workflow Enhancer**](https://github.com/moses946/workflow-enhancer) – Boost your GitHub Actions with advanced workflows. -->
 
 ### **2. Products** 🚀
 Crafted solutions for real-world problems:
-- [**StockSasa**](https://github.com/username/stocksasa) – A mobile app for inventory management and sales tracking.
-- [**Valoris Portfolio Builder**](https://github.com/username/valoris-builder) – Build stunning portfolios for professionals.
+<!-- - [**StockSasa**](https://github.com/moses946/stocksasa) – A mobile app for inventory management and sales tracking. -->
+- [**Glycosafe**]() – AI-powered app for tracking meals, glycemic load, and managing diabetes effortlessly. 🍴🤖
 
 ### **3. Fun Projects** 🎉
 When creativity meets code:
-- [**Shreducated**](https://github.com/moses946/shreducated) – A digital twin creator inspired by my love for Looney Tunes!
-- [**Kegel Counter**](https://github.com/username/kegel-counter) – A quirky app for pelvic floor exercises.
+- [**Shreducated**](https://github.com/moses946/shreducated) – A personalized workout generator to help you shred, sweat, and stay educated on your fitness journey. 💪📚
+<!-- - [**Kegel Counter**](https://github.com/username/kegel-counter) – A quirky app for pelvic floor exercises. -->
 
 ---
 
@@ -58,7 +58,7 @@ _"A reader lives a thousand lives before he dies."_ – Currently exploring:
 ## 🌐 Connect With Me
 Let’s talk code, ideas, or anything in between:
 - **[LinkedIn](https://linkedin.com/in/moses-mwai)**
-- **[Twitter](https://twitter.com/moses_mwai)**
+- **[Twitter](https://twitter.com/mwaii__)**
 - **[Website](https://yourwebsite.com)**
 
 ---
