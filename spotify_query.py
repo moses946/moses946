@@ -2,10 +2,25 @@ import os
 import requests
 import json
 from github import Github
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from datetime import datetime
 
-load_dotenv()
+# load_dotenv()
+
+
+def debug_environment():
+    """Print debug information about environment variables"""
+    print("Checking environment variables...")
+    
+    # List of expected environment variables
+    expected_vars = ["SPOTIFY_ID", "SPOTIFY_SECRET"]
+    
+    for var in expected_vars:
+        # Check if variable exists but don't print its value
+        if var in os.environ:
+            print(f"{var} is present in environment")
+        else:
+            print(f"WARNING: {var} is missing from environment")
 
 def get_token():
     url = "https://accounts.spotify.com/api/token"
@@ -69,6 +84,7 @@ def update_readme(tracks):
     
 
 if __name__ == "__main__":
+    debug_environment()
     token = get_token()
     tracks = get_tracks(token=token)
     update_readme(tracks=tracks)

@@ -13,6 +13,22 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
+    - name: Debug Environment
+      run: |
+        if [ -n "$SPOTIFY_CLIENT_ID" ]; then
+          echo "SPOTIFY_CLIENT_ID is set"
+        else
+          echo "SPOTIFY_CLIENT_ID is NOT set"
+        fi
+        if [ -n "$SPOTIFY_CLIENT_SECRET" ]; then
+          echo "SPOTIFY_CLIENT_SECRET is set"
+        else
+        echo "SPOTIFY_CLIENT_SECRET is NOT set"
+        fi
+      env:
+        SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_ID }}
+        SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_SECRET }}
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
