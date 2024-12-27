@@ -13,7 +13,7 @@ def debug_environment():
     print("Checking environment variables...")
     
     # List of expected environment variables
-    expected_vars = ["SPOTIFY_ID", "SPOTIFY_SECRET"]
+    expected_vars = ["SPOTIFY_CLIENT_ID", "SPOTIFY_CLIENT_SECRET"]
     
     for var in expected_vars:
         # Check if variable exists but don't print its value
@@ -27,8 +27,8 @@ def get_token():
     headers = {
         "Content-Type": "application/x-www-form-urlencoded"
     }
-    id= os.getenv("SPOTIFY_ID")
-    secret = os.getenv("SPOTIFY_SECRET")
+    id= os.getenv("SPOTIFY_CLIENT_ID")
+    secret = os.getenv("SPOTIFY_CLIENT_SECRET")
     body = {
         "grant_type":"client_credentials",
         "client_id":id,
