@@ -3,6 +3,7 @@ import requests
 import json
 from github import Github
 from dotenv import load_dotenv
+from datetime import datetime
 
 load_dotenv()
 
@@ -47,7 +48,7 @@ def get_tracks(token):
                 sorted_tracks.append(f"| **{track_name}** | {track_artists} | [Listen Here]({track_link}) |")
             
             # Return the last 5 tracks formatted as a markdown table
-            return "\n".join(sorted_tracks[-5:])
+            return sorted_tracks[-5:]
     except Exception as e:
         print(f"Exception {e}")
 
@@ -60,10 +61,11 @@ def update_readme(tracks):
     # Update README
     start_marker = "<!-- start spotify -->"
     end_marker = "<!-- end spotify -->"
-    new_content = "\n".join(tracks)
+    new_content = "\n \n".join(tracks)
+    print(new_content)
     updated_content = content.split(start_marker)[0] + start_marker + "\n" + new_content + "\n" + end_marker + content.split(end_marker)[1]
-   
-    repo.update_file(readme.path, "Update Spotify section", updated_content, readme.sha)
+    commit_message = f"Spotify playlist as at {datetime.date(datetime.now())}"
+    repo.update_file(readme.path, commit_message, updated_content, readme.sha)
     
 
 if __name__ == "__main__":

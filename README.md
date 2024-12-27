@@ -7,6 +7,8 @@ _"Code is my canvas, and every repo is a masterpiece in progress."_
 ## 🚀 About Me
 I’m a passionate developer with a knack for blending automation, creativity, and innovation. From building products that solve real-world problems to dabbling in fun side projects, I aim to leave a trail of impactful code wherever I go.
 
+_Stuck with my username like a bad tattoo😅, Hopefully it'll fade away_
+
 ---
 
 ## 🔥 Sections
@@ -23,7 +25,7 @@ Crafted solutions for real-world problems:
 
 ### **3. Fun Projects** 🎉
 When creativity meets code:
-- [**Looney Scanner**](https://github.com/username/looney-scanner) – A digital twin creator inspired by my love for Looney Tunes!
+- [**Shreducated**](https://github.com/moses946/shreducated) – A digital twin creator inspired by my love for Looney Tunes!
 - [**Kegel Counter**](https://github.com/username/kegel-counter) – A quirky app for pelvic floor exercises.
 
 ---
@@ -39,9 +41,9 @@ Music keeps me coding! Here’s what’s on repeat:
 
 ## 📚 What I'm Reading
 _"A reader lives a thousand lives before he dies."_ – Currently exploring:
-- **Book 1** by Author 1
-- **Book 2** by Author 2
-- **Book 3** by Author 3
+- **The Richest man in Babylon** by George S. Clason
+- **Julius Caesar** by William Shakespeare
+- **The Prince** by Niccolò Machiavelli
 
 ---
 
