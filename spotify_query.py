@@ -2,10 +2,10 @@ import os
 import requests
 import json
 from github import Github
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 from datetime import datetime
 
-# load_dotenv()
+load_dotenv()
 
 
 def debug_environment():
