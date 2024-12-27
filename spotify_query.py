@@ -27,10 +27,6 @@ def get_token():
     except Exception as e:
         pass
 
-
-import requests
-import json
-
 def get_tracks(token):
     url = "https://api.spotify.com/v1/playlists/77HCRyNiBLmGMdAcLnT5Tb/tracks"
     headers = {
@@ -60,19 +56,17 @@ def update_readme(tracks):
     g = Github(os.getenv("GITHUB_TOKEN"))
     repo = g.get_repo('moses946/moses946')
     readme = repo.get_readme()
-    content = readme.decoded_content.decode('utf-8')
-    print(content)
+    content = readme.decoded_content.decode()
     # Update README
     start_marker = "<!-- start spotify -->"
     end_marker = "<!-- end spotify -->"
     new_content = "\n".join(tracks)
     updated_content = content.split(start_marker)[0] + start_marker + "\n" + new_content + "\n" + end_marker + content.split(end_marker)[1]
-    
+   
     repo.update_file(readme.path, "Update Spotify section", updated_content, readme.sha)
     
 
 if __name__ == "__main__":
     token = get_token()
     tracks = get_tracks(token=token)
-    # update_readme(tracks=tracks)
-    print(tracks)
+    update_readme(tracks=tracks)
