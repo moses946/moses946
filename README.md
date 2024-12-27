@@ -38,9 +38,9 @@ Music keeps me coding! Here’s what’s on repeat:
  
 | **B.B. King Freestyle (with Drake)** | Lil Wayne & Drake | [Listen Here](https://open.spotify.com/track/6EW1fwOk4JHmTZKINZsyjB) |
  
-| **Mile High Club** | Vybz Kartel | [Listen Here](https://open.spotify.com/track/4efivRH01IYzHcTyNJgg6E) |
+| **Love Me JeJe** | Tems | [Listen Here](https://open.spotify.com/track/47hsUYxvbTlBAN3sP9dEOd) |
  
-| **Your Number** | Ayo Jay | [Listen Here](https://open.spotify.com/track/5J4FiKDJIdJ8AKx2gaWMt4) |
+| **Mile High Club** | Vybz Kartel | [Listen Here](https://open.spotify.com/track/4efivRH01IYzHcTyNJgg6E) |
  
 | **Dark Fantasy** | Kanye West | [Listen Here](https://open.spotify.com/track/7yNK27ZTpHew0c55VvIJgm) |
 <!-- end spotify -->
