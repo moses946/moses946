@@ -34,7 +34,15 @@ When creativity meets code:
 Music keeps me coding! Here’s what’s on repeat:
 
 <!-- start spotify -->
-*Your dynamic Spotify tracks will appear here.*
+| **We're All Alone** | Dave | [Listen Here](https://open.spotify.com/track/22agj1ppHejR41cUyf7k6v) |
+ 
+| **B.B. King Freestyle (with Drake)** | Lil Wayne & Drake | [Listen Here](https://open.spotify.com/track/6EW1fwOk4JHmTZKINZsyjB) |
+ 
+| **Mile High Club** | Vybz Kartel | [Listen Here](https://open.spotify.com/track/4efivRH01IYzHcTyNJgg6E) |
+ 
+| **Your Number** | Ayo Jay | [Listen Here](https://open.spotify.com/track/5J4FiKDJIdJ8AKx2gaWMt4) |
+ 
+| **Dark Fantasy** | Kanye West | [Listen Here](https://open.spotify.com/track/7yNK27ZTpHew0c55VvIJgm) |
 <!-- end spotify -->
 
 ---
