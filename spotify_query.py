@@ -27,8 +27,8 @@ def get_token():
     headers = {
         "Content-Type": "application/x-www-form-urlencoded"
     }
-    id= os.environ.get("SPOTIFY_ID")
-    secret = os.environ.get("SPOTIFY_SECRET")
+    id= os.getenv("SPOTIFY_ID")
+    secret = os.getenv("SPOTIFY_SECRET")
     body = {
         "grant_type":"client_credentials",
         "client_id":id,
