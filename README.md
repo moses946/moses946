@@ -34,8 +34,6 @@ When creativity meets code:
 Music keeps me coding! Here’s what’s on repeat:
 
 <!-- start spotify -->
-| **B.B. King Freestyle (with Drake)** | Lil Wayne & Drake | [Listen Here](https://open.spotify.com/track/6EW1fwOk4JHmTZKINZsyjB) |
- 
 | **Love Me JeJe** | Tems | [Listen Here](https://open.spotify.com/track/47hsUYxvbTlBAN3sP9dEOd) |
  
 | **Mile High Club** | Vybz Kartel | [Listen Here](https://open.spotify.com/track/4efivRH01IYzHcTyNJgg6E) |
@@ -43,6 +41,8 @@ Music keeps me coding! Here’s what’s on repeat:
 | **Dark Fantasy** | Kanye West | [Listen Here](https://open.spotify.com/track/7yNK27ZTpHew0c55VvIJgm) |
  
 | **Pocahantas** | Storyteller Sam & Boke | [Listen Here](https://open.spotify.com/track/2lKb0Zxafn6GLthqh3Fd3P) |
+ 
+| **Circadian Rhythm** | Drake | [Listen Here](https://open.spotify.com/track/1eroCliWpJrEu1V7VSObcO) |
 <!-- end spotify -->
 
 ---
