@@ -34,8 +34,6 @@ When creativity meets code:
 Music keeps me coding! Here’s what’s on repeat:
 
 <!-- start spotify -->
-| **Love Me JeJe** | Tems | [Listen Here](https://open.spotify.com/track/47hsUYxvbTlBAN3sP9dEOd) |
- 
 | **Mile High Club** | Vybz Kartel | [Listen Here](https://open.spotify.com/track/4efivRH01IYzHcTyNJgg6E) |
  
 | **Dark Fantasy** | Kanye West | [Listen Here](https://open.spotify.com/track/7yNK27ZTpHew0c55VvIJgm) |
@@ -43,6 +41,8 @@ Music keeps me coding! Here’s what’s on repeat:
 | **Pocahantas** | Storyteller Sam & Boke | [Listen Here](https://open.spotify.com/track/2lKb0Zxafn6GLthqh3Fd3P) |
  
 | **Circadian Rhythm** | Drake | [Listen Here](https://open.spotify.com/track/1eroCliWpJrEu1V7VSObcO) |
+ 
+| **All The Stars (with SZA)** | Kendrick Lamar & SZA | [Listen Here](https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s) |
 <!-- end spotify -->
 
 ---
