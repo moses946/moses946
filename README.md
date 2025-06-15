@@ -40,7 +40,7 @@ Music keeps me coding! Here’s what’s on repeat:
  
 | **Circadian Rhythm** | Drake | [Listen Here](https://open.spotify.com/track/1eroCliWpJrEu1V7VSObcO) |
  
-| **All The Stars (with SZA)** | Kendrick Lamar & SZA | [Listen Here](https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s) |
+| **All The Stars (with SZA) - From "Black Panther: The Album"** | Kendrick Lamar & SZA | [Listen Here](https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s) |
  
 | **Can't Get Enough** | J. Cole & Trey Songz | [Listen Here](https://open.spotify.com/track/3mTpegrOwRn0oJjv4TSbEE) |
 <!-- end spotify -->
