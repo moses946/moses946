@@ -36,7 +36,7 @@ Music keeps me coding! Here’s what’s on repeat:
 <!-- start spotify -->
 | **Dark Fantasy** | Kanye West | [Listen Here](https://open.spotify.com/track/7yNK27ZTpHew0c55VvIJgm) |
  
-| **Pocahantas** | Storyteller Sam & Boke | [Listen Here](https://open.spotify.com/track/2lKb0Zxafn6GLthqh3Fd3P) |
+| **Pocahantas** | Storyteller Sam & BOKE | [Listen Here](https://open.spotify.com/track/2lKb0Zxafn6GLthqh3Fd3P) |
  
 | **Circadian Rhythm** | Drake | [Listen Here](https://open.spotify.com/track/1eroCliWpJrEu1V7VSObcO) |
  
